@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.egg-info/
+.streamlit/secrets.toml
+models/*.joblib

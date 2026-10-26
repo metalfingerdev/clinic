@@ -1,0 +1,31 @@
+{
+  "best_iteration": 833,
+  "train_rows": 35994,
+  "test_rows": 8999,
+  "accuracy": 0.9367707523058117,
+  "roc_auc": 0.979116445206458,
+  "precision": 0.8959601549529607,
+  "recall": 0.8095,
+  "f1": 0.8505384817441555,
+  "confusion_matrix": {
+    "tn": 6811,
+    "fp": 188,
+    "fn": 381,
+    "tp": 1619
+  },
+  "feature_importance_gain": {
+    "previous_loan_defaults_on_file": 0.8652760982513428,
+    "person_home_ownership": 0.03412964940071106,
+    "loan_percent_income": 0.028763804584741592,
+    "loan_int_rate": 0.01831044629216194,
+    "person_income": 0.01194442342966795,
+    "loan_intent": 0.011043574661016464,
+    "loan_amnt": 0.006506434176117182,
+    "credit_score": 0.005514354445040226,
+    "person_age": 0.004457782953977585,
+    "cb_person_cred_hist_length": 0.00377050437964499,
+    "person_emp_exp": 0.003596668131649494,
+    "person_gender": 0.003448814619332552,
+    "person_education": 0.0032374516595155
+  }
+}
